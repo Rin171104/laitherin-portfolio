@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Cpu, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
@@ -30,9 +30,14 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="mb-8 relative"
         >
-            <div className="absolute -inset-4 bg-cyber-primary/20 rounded-full blur-xl animate-pulse"></div>
-            <div className="relative bg-cyber-panel border border-cyber-primary/50 p-6 rounded-full shadow-[0_0_15px_rgba(0,243,255,0.3)]">
-                <Cpu className="w-16 h-16 text-cyber-primary animate-spin-slow" />
+            <div className="absolute -inset-6 bg-gradient-to-r from-cyber-primary via-cyber-secondary to-cyber-primary/50 rounded-full blur-2xl animate-pulse opacity-60"></div>
+            <div className="relative w-40 h-40 rounded-full border-2 border-cyber-primary/50 overflow-hidden shadow-[0_0_30px_rgba(0,243,255,0.4)] bg-gradient-to-br from-cyber-panel via-cyber-dark to-black">
+                <img 
+                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rin&scale=80&backgroundColor=b6e3f5,c0aede,d1d4f9,ffd5dc,ffdfbf"
+                    alt="Lại Thế Rin"
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-cyber-primary/20 to-transparent pointer-events-none"></div>
             </div>
         </motion.div>
 
