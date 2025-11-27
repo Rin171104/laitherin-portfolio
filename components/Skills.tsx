@@ -7,19 +7,19 @@ const skillCategories = [
   {
     title: "AI & Machine Learning",
     skills: [
-      { name: "TensorFlow / Keras", level: 90, icon: Box },
-      { name: "PyTorch", level: 85, icon: Layers },
-      { name: "Scikit-Learn", level: 95, icon: Cpu },
-      { name: "OpenCV", level: 80, icon: Globe },
+      { name: "Machine Learning (Linear Regression, SVM, Decision Trees, Random Forest)", level: 85, icon: Box },
+      { name: "Deep Learning (CNN, RNN, LSTM, Transformers)", level: 80, icon: Layers },
+      { name: "Natural Language Processing (NLP)", level: 75, icon: Globe },
+      { name: "TensorFlow / Keras & PyTorch", level: 80, icon: Cpu },
     ]
   },
   {
     title: "Development & Tools",
     skills: [
-      { name: "Python", level: 98, icon: Terminal },
-      { name: "React / TypeScript", level: 75, icon: Zap },
-      { name: "Docker / Kubernetes", level: 85, icon: Box },
-      { name: "AWS / Cloud", level: 80, icon: Globe },
+      { name: "Python (NumPy, Pandas, Scikit-learn, Matplotlib)", level: 90, icon: Terminal },
+      { name: "Tkinter GUI & Pygame", level: 75, icon: Zap },
+      { name: "API Testing (Postman) & HTML/CSS/SQL", level: 70, icon: Box },
+      { name: "Office & Design (Excel, PowerPoint, Photoshop, Canva)", level: 80, icon: Layers },
     ]
   }
 ];

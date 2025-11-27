@@ -6,31 +6,30 @@ import { Github, ExternalLink, Code } from 'lucide-react';
 const projects: Project[] = [
   {
     id: 1,
-    title: "AI Chatbot Trợ Lý",
-    category: "NLP",
-    description: "Hệ thống chatbot thông minh sử dụng Transformer model, có khả năng hiểu ngữ cảnh và trả lời câu hỏi tự nhiên. Tích hợp RAG để truy xuất thông tin doanh nghiệp.",
-    technologies: ["Python", "PyTorch", "Hugging Face", "FastAPI"],
+    title: "Dự Báo Thời Tiết sử dụng Random Forest + Tkinter GUI",
+    category: "Machine Learning",
+    description: "Ứng dụng dự báo thời tiết sử dụng mô hình Random Forest để phân loại điều kiện thời tiết dựa trên các đặc trưng như nhiệt độ, độ ẩm, gió, mây...",
+    technologies: ["Python", "Scikit-learn", "RandomForest", "Tkinter", "PIL"],
     image: "https://picsum.photos/800/600?random=1",
-    githubUrl: "#",
-    demoUrl: "#"
+    githubUrl: "#"
   },
   {
     id: 2,
-    title: "Hệ Thống Nhận Diện",
-    category: "Computer Vision",
-    description: "Giải pháp chấm công và an ninh sử dụng nhận diện khuôn mặt thời gian thực. Độ chính xác 99.5% trên tập dữ liệu LFW, hoạt động tốt trong điều kiện thiếu sáng.",
-    technologies: ["OpenCV", "TensorFlow", "Docker", "Raspberry Pi"],
+    title: "Dự Đoán Giá Cổ Phiếu sử dụng LSTM (Team Leader)",
+    category: "Deep Learning",
+    description: "Mô hình LSTM 2 lớp dự đoán giá đóng cửa ngày hôm sau từ 4 năm dữ liệu lịch sử. Đạt R² = 0.968 với MAE, MSE, R² metrics. Chứng minh hiệu quả của LSTM trong time-series forecasting.",
+    technologies: ["Python", "TensorFlow/Keras", "NumPy", "Pandas", "StandardScaler"],
     image: "https://picsum.photos/800/600?random=2",
     githubUrl: "#"
   },
   {
     id: 3,
-    title: "Dự Đoán Tài Chính",
-    category: "Data Science",
-    description: "Mô hình LSTM dự đoán xu hướng thị trường chứng khoán dựa trên dữ liệu lịch sử và phân tích cảm xúc từ tin tức. Dashboard trực quan hóa dữ liệu theo thời gian thực.",
-    technologies: ["Python", "Scikit-learn", "Pandas", "Streamlit"],
+    title: "NEAT-Based Dino Game AI - Reinforcement Learning + Neuroevolution",
+    category: "Reinforcement Learning",
+    description: "AI agent tự động chơi trò chơi Dino của Chrome sử dụng thuật toán NEAT. Agent học liên tục cải thiện quyết định nhảy qua các thế hệ tiến hóa.",
+    technologies: ["Python", "NEAT-Python", "Pygame", "Reinforcement Learning"],
     image: "https://picsum.photos/800/600?random=3",
-    demoUrl: "#"
+    githubUrl: "#"
   }
 ];
 

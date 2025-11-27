@@ -4,10 +4,10 @@ import { Brain, Code2, Database, Network } from 'lucide-react';
 
 const About: React.FC = () => {
   const stats = [
-    { label: 'Kinh Nghiệm', value: 'Nghiên cứu khoa học', icon: Brain },
-    { label: 'Dự Án', value: '3', icon: Code2 },
-    { label: 'Models Trained', value: '20+', icon: Database },
-    { label: 'Độ Chính Xác', value: '90%', icon: Network },
+    { label: 'Kinh Nghiệm', value: '6 tháng', icon: Brain },
+    { label: 'Dự Án AI', value: '3', icon: Code2 },
+    { label: 'Độ Chính Xác (RF)', value: '90%+', icon: Database },
+    { label: 'R² (LSTM)', value: '0.968', icon: Network },
   ];
 
   return (
@@ -37,13 +37,13 @@ const About: React.FC = () => {
               // INITIALIZING_PROFILE...
             </div>
             <h3 className="font-rajdhani font-bold text-3xl text-white">
-              Sự kết hợp giữa <span className="text-cyber-secondary">Logic</span> và <span className="text-cyber-primary">Sáng tạo</span>
+              Sinh viên năm 4 - <span className="text-cyber-primary">Kỹ Sư Phần Mềm</span>
             </h3>
             <p className="text-gray-400 leading-relaxed text-lg">
-              Xin chào! Tôi là một Kỹ sư AI với niềm đam mê sâu sắc về việc xây dựng các hệ thống thông minh có khả năng giải quyết các vấn đề thực tế. Hành trình của tôi bắt đầu từ việc tò mò về cách máy tính "học", và giờ đây tôi đang phát triển các mô hình Deep Learning tiên tiến.
+              Tôi là Lại Thế Rin, sinh viên năm 4 chuyên ngành Kỹ Sư Phần Mềm tại Đại Học Công Nghiệp Hà Nội. Trong 6 tháng gần đây, tôi đã tham gia các dự án nghiên cứu khoa học về AI, bao gồm dự báo thời tiết sử dụng Random Forest, dự đoán giá cổ phiếu với LSTM, và AI chơi game sử dụng NEAT.
             </p>
             <p className="text-gray-400 leading-relaxed text-lg">
-              Tôi chuyên sâu về Xử lý Ngôn ngữ Tự nhiên (NLP) và Thị giác Máy tính (Computer Vision). Mục tiêu của tôi không chỉ là tạo ra code chạy được, mà là tạo ra các giải pháp tối ưu, có khả năng mở rộng và mang lại giá trị thực tiễn.
+              Mục tiêu ngắn hạn của tôi là nâng cao kỹ năng qua các dự án AI thực tế, đặc biệt là LLMs, GenAI và Computer Vision. Về lâu dài, tôi mong muốn trở thành một AI Engineer năng lực, có khả năng xây dựng và tối ưu hóa các mô hình AI phục vụ cho các giải pháp thực tiễn.
             </p>
           </motion.div>
 

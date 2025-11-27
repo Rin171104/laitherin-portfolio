@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           </h2>
           
           <h1 className="font-orbitron font-black text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
-            NGUYỄN VĂN <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-primary to-cyber-secondary">CODE</span>
+            LẠI THẾ <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-primary to-cyber-secondary">RIN</span>
           </h1>
 
           <div className="h-16 flex items-center justify-center">
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
           </div>
 
           <p className="max-w-2xl mx-auto font-sans text-gray-400 text-lg leading-relaxed">
-            Chuyên gia Kỹ thuật AI & Khoa học Dữ liệu. Biến đổi dữ liệu thô thành các giải pháp thông minh, mở rộng ranh giới của công nghệ.
+            Kỹ sư AI chuyên sâu về Machine Learning, Deep Learning và NLP. Xây dựng các mô hình thông minh giải quyết vấn đề thực tiễn từ dự báo thời tiết đến dự đoán tài chính.
           </p>
         </motion.div>
 

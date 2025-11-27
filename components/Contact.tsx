@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-sm text-gray-400 font-mono">Email</p>
-                            <p className="text-white font-medium">contact@ainexus.vn</p>
+                            <p className="text-white font-medium">laitherin1711@gmail.com</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 group">
@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-sm text-gray-400 font-mono">Điện Thoại</p>
-                            <p className="text-white font-medium">+84 90 123 4567</p>
+                            <p className="text-white font-medium">0392581150</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 group">
@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-sm text-gray-400 font-mono">Địa Điểm</p>
-                            <p className="text-white font-medium">TP. Hồ Chí Minh, Việt Nam</p>
+                            <p className="text-white font-medium">Đi Trạch - Hoài Đức - Hà Nội</p>
                         </div>
                     </div>
                 </div>
