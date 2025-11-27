@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             <div className="absolute -inset-6 bg-gradient-to-r from-cyber-primary via-cyber-secondary to-cyber-primary/50 rounded-full blur-2xl animate-pulse opacity-60"></div>
             <div className="relative w-40 h-40 rounded-full border-2 border-cyber-primary/50 overflow-hidden shadow-[0_0_30px_rgba(0,243,255,0.4)] bg-gradient-to-br from-cyber-panel via-cyber-dark to-black">
                 <img 
-                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rin&scale=80&backgroundColor=b6e3f5,c0aede,d1d4f9,ffd5dc,ffdfbf"
+                    src="../avt.jpg"
                     alt="Lại Thế Rin"
                     className="w-full h-full object-cover"
                 />
