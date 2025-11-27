@@ -11,7 +11,7 @@ const projects: Project[] = [
     description: "Ứng dụng dự báo thời tiết sử dụng mô hình Random Forest để phân loại điều kiện thời tiết dựa trên các đặc trưng như nhiệt độ, độ ẩm, gió, mây...",
     technologies: ["Python", "Scikit-learn", "RandomForest", "Tkinter", "PIL"],
     image: "https://picsum.photos/800/600?random=1",
-    githubUrl: "#"
+    githubUrl: "https://github.com/Rin171104/Weather-Forecasting-Application"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects: Project[] = [
     description: "Mô hình LSTM 2 lớp dự đoán giá đóng cửa ngày hôm sau từ 4 năm dữ liệu lịch sử. Đạt R² = 0.968 với MAE, MSE, R² metrics. Chứng minh hiệu quả của LSTM trong time-series forecasting.",
     technologies: ["Python", "TensorFlow/Keras", "NumPy", "Pandas", "StandardScaler"],
     image: "https://picsum.photos/800/600?random=2",
-    githubUrl: "#"
+    githubUrl: "https://github.com/Rin171104/Stock-Price-Prediction-Application"
   },
   {
     id: 3,
