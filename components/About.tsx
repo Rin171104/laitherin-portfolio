@@ -4,10 +4,10 @@ import { Brain, Code2, Database, Network } from 'lucide-react';
 
 const About: React.FC = () => {
   const stats = [
-    { label: 'Kinh Nghiệm', value: '5+ Năm', icon: Brain },
-    { label: 'Dự Án', value: '30+', icon: Code2 },
-    { label: 'Models Trained', value: '150+', icon: Database },
-    { label: 'Độ Chính Xác', value: '99.9%', icon: Network },
+    { label: 'Kinh Nghiệm', value: 'Nghiên cứu khoa học', icon: Brain },
+    { label: 'Dự Án', value: '3', icon: Code2 },
+    { label: 'Models Trained', value: '20+', icon: Database },
+    { label: 'Độ Chính Xác', value: '90%', icon: Network },
   ];
 
   return (
