@@ -7,10 +7,10 @@ const skillCategories = [
   {
     title: "AI & Machine Learning",
     skills: [
-      { name: "Machine Learning (Linear Regression, SVM, Decision Trees, Random Forest)", level: 85, icon: Box },
+      { name: "Machine Learning (Linear Regression, SVM, Decision Trees, Random Forest)", level: 90, icon: Box },
       { name: "Deep Learning (CNN, RNN, LSTM, Transformers)", level: 80, icon: Layers },
-      { name: "Natural Language Processing (NLP)", level: 75, icon: Globe },
-      { name: "TensorFlow / Keras & PyTorch", level: 80, icon: Cpu },
+      { name: "Natural Language Processing (Tokenization, Text Classification, Word Embedding)", level: 75, icon: Globe },
+      { name: "TensorFlow / Keras & PyTorch", level: 60, icon: Cpu },
     ]
   },
   {
